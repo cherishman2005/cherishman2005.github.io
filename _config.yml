@@ -5,8 +5,8 @@ baseurl:
 url: https://github.com/cherishman2005
 date_format: "ordinal"
 title: cherishman2005
-subtitle: "阿武的个人博客"
-description: "阿武的个人博客"
+subtitle: "阿武的博客"
+description: "阿武的博客"
 keywords: 阿武, zhangbiwu
 timezone: Asia/Shanghai
 encoding: "utf-8"
