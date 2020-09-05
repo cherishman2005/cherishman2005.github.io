@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  JS setTimeout定时不准问题
-categories: kafka
+categories: JS
 description: JS setTimeout定时不准问题
 keywords: setTimeout
 # topmost: true
