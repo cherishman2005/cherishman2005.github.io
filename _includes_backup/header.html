@@ -33,7 +33,7 @@
     {% endif %}
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.subscribe_rss }}">
-    <link rel="shortcut icon" href="{{ assets_base_url }}/xfavicon.ico">
+    <link rel="shortcut icon" href="{{ assets_base_url }}/favicon.ico">
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
       {% if page.keywords %}
@@ -76,7 +76,7 @@
     <script src="{{ assets_base_url }}/assets/js/jquery-ui.js"></script>
     <script src="{{ assets_base_url }}/assets/js/main.js"></script>
 
-    {% if site.url contains 'xxx' %}
+    {% if site.url contains 'mazhuang.org' %}
     <script data-ad-client="ca-pub-7093222719567591" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {% endif %}
 </head>
