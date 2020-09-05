@@ -19,7 +19,7 @@ permalink: /about/
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'https://github.com/cherishman2005' %}
+{% if site.url contains 'https://cherishman2005.github.io' %}
 {% endif %}
 </ul>
 
