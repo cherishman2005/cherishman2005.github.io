@@ -1,3 +1,12 @@
+---
+layout: post
+title:  JS setTimeout定时不准问题
+categories: kafka
+description: JS setTimeout定时不准问题
+keywords: setTimeout
+# topmost: true
+---
+
 # js端定时setTimeout/setInterval
 setTimeout 兼容很复杂。还涉及到与 浏览器tab切换的配合。不是sdk独立可以解决差值。
 
