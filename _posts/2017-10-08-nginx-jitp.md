@@ -3,7 +3,7 @@ layout: post
 title: nginx-jitp即时转封装系统设计
 categories: nginx
 description: nginx-jitp即时转封装系统设计
-keywords: nginx, subrequest, upstream, http-range
+keywords: nginx, subrequest, upstream, http-range, CDN
 # topmost: true
 ---
 
