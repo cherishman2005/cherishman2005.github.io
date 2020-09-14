@@ -42,7 +42,9 @@ keywords: websocket, nginx, RTM
 
 * 应用协议采用FIN字段进行分片；—— 开发后端时，重点注意对这个字段的处理；
 
-# websocket开发场景
+## websocket开发场景
+
+* IM/chatroom即时通信系统；
 
 * websocket在webrtc做控制信令；
 
