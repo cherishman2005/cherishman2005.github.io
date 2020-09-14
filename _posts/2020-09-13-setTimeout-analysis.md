@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JS setTimeout时延测试分析
+title: JS setTimeout时延测试分析
 categories: RTM
 description: setTimeout时延测试分析
 keywords: setTimeout

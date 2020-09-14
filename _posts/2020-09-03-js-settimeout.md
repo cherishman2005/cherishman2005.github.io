@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JS setTimeout定时不准问题
+title: JS setTimeout定时不准问题
 categories: RTM
 description: JS setTimeout定时不准问题
 keywords: setTimeout
