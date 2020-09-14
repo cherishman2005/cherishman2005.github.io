@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  JS setTimeout定时不准问题
-categories: JS
+categories: RTM
 description: JS setTimeout定时不准问题
 keywords: setTimeout
 # topmost: true
