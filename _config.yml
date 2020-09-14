@@ -119,16 +119,16 @@ comments_provider: gitalk
 # disqus:
 #     username: 
 # https://imsun.net/posts/gitment-introduction/
-# gitment:
-#     owner: cherishman2005
-#     repo: blog-comments
-#     oauth:
-#         client_id: ffbd172d2be86b73a2ed
-#         client_secret: 64be52282fac23767bb0e1f891f141e7e67ec48a
+ gitment:
+     owner: cherishman2005
+     repo: blog-comments
+     oauth:
+         client_id: ffbd172d2be86b73a2ed
+         client_secret: 64be52282fac23767bb0e1f891f141e7e67ec48a
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: cherishman2005
-    repo: cherishman2005.github.io
+    repo: blog-comments
     clientID: ffbd172d2be86b73a2ed
     clientSecret: 64be52282fac23767bb0e1f891f141e7e67ec48a
 # 在使用其它评论组件时可点击显示 Disqus
