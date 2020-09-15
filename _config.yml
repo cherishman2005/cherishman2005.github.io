@@ -128,7 +128,7 @@ comments_provider: gitalk
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: cherishman2005
-    repo: blog-comments
+    repo: cherishman2005.github.io
     clientID: ffbd172d2be86b73a2ed
     clientSecret: 64be52282fac23767bb0e1f891f141e7e67ec48a
 # 在使用其它评论组件时可点击显示 Disqus
