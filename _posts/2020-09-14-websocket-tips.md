@@ -44,7 +44,7 @@ keywords: websocket, nginx, RTM
 
 ## websocket开发场景
 
-* IM/chatroom即时通信系统；
+* IM/chatroom即时聊天系统；
 
 * websocket在webrtc做控制信令；
 
