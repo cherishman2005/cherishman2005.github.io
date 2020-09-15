@@ -12,7 +12,9 @@ keywords: websocket, nginx, RTM
 * 通过http握手，然后upgrade升级为websocket长连接；
 
 * 一般通过nginx ssl代理，将ws升级为wss；
+
   ** 架构简单时，采用nginx upstream；
+
   ** 如果系统容量大时，可将后端服注册到微服务中心，nginx去拉取ip+port列表。非常灵活方便。
 
 ## websocket协议字段
