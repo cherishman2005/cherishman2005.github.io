@@ -82,5 +82,17 @@ nginx轻量级，稳定的web服务器；
    如果是团队作战，最好选择大家熟悉的技术栈，如nodejs/go/java等写后端业务逻辑。
 
 
+## nginx http-range
+
+RFC2616规范中定义了range协议： 一次请求只下载完整文件的某一部分。
+
+
+在基于nginx做即时转封装时遇到range的一个大坑。
+
+* 需要采用subrequest拉取完整分片，然后转封装后再执行range；
+
+* 如果采用upstream + filter，在body-filter做转封装的设计； nginx执行流程就会出现先range，后转封装；——达不到预期。
+
+
 待续。。。
 
