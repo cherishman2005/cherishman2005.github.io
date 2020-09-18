@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About
-description: nginx，RTC/RTM即时通信，CDN交流
+description: nginx，RTC/RTM即时通信，CDN技术交流
 keywords: Biwu Zhang, 张必武
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是阿武，欢迎进行nginx，RTC/RTM即时通信，CDN交流。
+我是阿武，欢迎进行nginx，RTC/RTM即时通信，CDN技术交流。
 
 * nginx(openresty): 成熟的优秀开源服务器；
 
