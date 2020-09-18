@@ -10,6 +10,13 @@ permalink: /about/
 
 我是阿武，欢迎进行nginx，RTC/RTM即时通信，CDN交流。
 
+* nginx(openresty): 成熟的优秀开源服务器；
+
+* RTC: Real-Time Communication；
+
+* RTM: Real-Time Message;
+
+* CDN: Content Delivery Network;
 
 专注做一事
 
