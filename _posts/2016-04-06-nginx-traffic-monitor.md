@@ -107,14 +107,11 @@ send packet bytes: 1423
 
 ---------------------
 
- 
 
 ## 提交代码到gitHub
 
-https://github.com/cherishman2005/ngx_http_traffic_status_module
-
- 
+- [https://github.com/cherishman2005/ngx_http_traffic_status_module](https://github.com/cherishman2005/ngx_http_traffic_status_module)
 
 # 参考资料
 
-http://tengine.taobao.org/book/
+- [http://tengine.taobao.org/book/](http://tengine.taobao.org/book/)
