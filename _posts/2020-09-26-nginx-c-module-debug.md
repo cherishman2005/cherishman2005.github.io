@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 开发nginx c module时的一些调试技巧
+title: 开发nginx c module的一些调试技巧
 categories: nginx
-description: 开发nginx c module时的一些调试技巧
+description: 开发nginx c module的一些调试技巧
 keywords: nginx, openresty
 # topmost: true
 ---
 
-# 开发nginx c module时的一些调试技巧
+# 开发nginx c module的一些调试技巧
 
 ## 观察workder进程是否有core?
 

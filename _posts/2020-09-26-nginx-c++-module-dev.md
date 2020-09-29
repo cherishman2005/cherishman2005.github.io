@@ -7,7 +7,7 @@ keywords: nginx, openresty
 # topmost: true
 ---
 
-# 开发nginx c module时的一些调试技巧
+# nginx c++ module开发
 
 * CPP/H文件添加extern "C"
 
