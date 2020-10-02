@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-我是阿武，欢迎进行nginx，RTC/RTM即时通信，CDN技术交流。
+我是阿武，欢迎进行nginx(openresty)，RTC/RTM即时通信，CDN技术交流。
 
 * nginx(openresty): 成熟的优秀开源服务器；
 
@@ -18,7 +18,14 @@ permalink: /about/
 
 * CDN: Content Delivery Network;
 
-专注做一事
+
+华为工作经历：
+
+* 基于nginx(openresty)的即时转封装框架设计与开发；
+
+* 基于nginx(openresty)的直播cache缓存服务器(CDN)设计与开发；
+
+* RTC连麦互动直播系统预研与设计，RTC-demo实现第一人。
 
 ## 联系
 
