@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JS setTimeout定时不准问题
+title: setTimeout定时不准问题
 categories: RTM
-description: JS setTimeout定时不准问题
-keywords: setTimeout
+description: setTimeout定时不准问题
+keywords: setTimeout, js, nodejs
 # topmost: true
 ---
 
