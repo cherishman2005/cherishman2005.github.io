@@ -93,6 +93,7 @@ RFC2616规范中定义了range协议： 一次请求只下载完整文件的某�
 
 * 如果采用upstream + filter，在body-filter做转封装的设计； nginx执行流程就会出现先range，后转封装；——达不到预期。
 
+## nginx.conf增加配置项时，nginx c/c++ module做好异常保护
 
-待续。。。
+   —— 可以观察nginx  worker进程PID是否在不断变化。如果不断变化，说明程序里面有bug。
 
