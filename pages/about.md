@@ -25,7 +25,15 @@ permalink: /about/
 
 * 基于nginx(openresty)的直播cache缓存服务器(CDN)设计与开发；
 
-* RTC连麦互动直播系统预研与设计，RTC-demo实现第一人。
+* RTC连麦互动直播系统预研与设计，RTC-demo(webrtc)实现第一人。
+
+
+其他：
+
+* 作为技术和项目负责人：（后端，前端，console控制台）
+  * 设计并开发微商城公众号，微商城小程序；
+  * 一物一码商品跟踪系统；
+
 
 ## 联系
 
