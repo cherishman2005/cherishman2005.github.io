@@ -38,7 +38,7 @@ typedef struct {
 
 使用时多注意这些结构体（API）的用法。
 
-* 注意sizeof()与strlen()相关的使用，否则使用出现各种坑。
+* 注意sizeof()与ngx_strlen()相关的使用，否则使用出现各种坑。
 
 * 采用ngx_str_t读取数据时，减少拷贝；
 
