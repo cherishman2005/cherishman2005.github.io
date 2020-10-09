@@ -42,6 +42,38 @@ typedef struct {
 
 * 采用ngx_str_t读取数据时，减少拷贝；
 
+## atoi
+
+教科书版的异常处理逻辑：
+```
+ngx_int_t
+ngx_atoi(u_char *line, size_t n)
+{
+    ngx_int_t  value, cutoff, cutlim;
+
+    if (n == 0) {
+        return NGX_ERROR;
+    }
+
+    cutoff = NGX_MAX_INT_T_VALUE / 10;
+    cutlim = NGX_MAX_INT_T_VALUE % 10;
+
+    for (value = 0; n--; line++) {
+        if (*line < '0' || *line > '9') {
+            return NGX_ERROR;
+        }
+
+        if (value >= cutoff && (value > cutoff || *line - '0' > cutlim)) {
+            return NGX_ERROR;
+        }
+
+        value = value * 10 + (*line - '0');
+    }
+
+    return value;
+}
+```
+
 ## 参考链接
 
 - [https://stackoverflow.com/questions/26274518/ngx-str-set-truncating-value](https://stackoverflow.com/questions/26274518/ngx-str-set-truncating-value)
