@@ -42,7 +42,7 @@ typedef struct {
 
 * 采用ngx_str_t读取数据时，减少拷贝；
 
-## atoi
+## ngx_atoi
 
 教科书版的异常处理逻辑：
 ```
@@ -74,6 +74,13 @@ ngx_atoi(u_char *line, size_t n)
 }
 ```
 
-## 参考链接
+## ngx_memzero
+
+```
+#define ngx_memzero(buf, n)       (void) memset(buf, 0, n)
+#define ngx_memset(buf, c, n)     (void) memset(buf, c, n)
+```
+
+# 参考链接
 
 - [https://stackoverflow.com/questions/26274518/ngx-str-set-truncating-value](https://stackoverflow.com/questions/26274518/ngx-str-set-truncating-value)
