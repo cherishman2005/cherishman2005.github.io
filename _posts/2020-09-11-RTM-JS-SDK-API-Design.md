@@ -62,6 +62,11 @@ join加上mutex锁，做到串行化操作。
 
 leave离开
 
+### refreshToken
+
+刷新token与login登录类似，也要做串行化mutex加锁处理。
+
+
 ## 小结
 
 *  同一实例的 login/logout join/leave sdk成做好串行化操作。
@@ -75,5 +80,3 @@ leave离开
 zhangbiwu
 
 API设计参考和借鉴了A公司的RTM优秀成功经验。
-
-
