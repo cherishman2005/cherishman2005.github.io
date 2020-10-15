@@ -64,7 +64,7 @@ nginx轻量级，稳定的web服务器；
 
   `openresty适合做接入控制层、API网关`
 
-  曾经做过一个（openresty + lua + mysql）+ vue的商城购物小程序/公众号项目。
+  曾经负责过一个（openresty + lua + mysql）+ vue的商城购物小程序/公众号项目。
 
   所有的商品列表，订单，支付，均采用lua-API对接mysql。
 
