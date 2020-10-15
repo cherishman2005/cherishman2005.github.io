@@ -11,6 +11,8 @@ keywords: nginx, CDN
 
 * HTTP/HTTPS API网关
 
+* 反向代理，负载均衡
+
 * http proxy-cache CDN
 
 * web容器
