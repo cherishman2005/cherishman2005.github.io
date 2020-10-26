@@ -19,7 +19,7 @@ permalink: /about/
 * CDN: Content Delivery Network;
 
 
-华为工作经历：
+## 华为工作经历
 
 * 基于nginx(openresty)的即时转封装框架设计与开发；
 
@@ -28,11 +28,21 @@ permalink: /about/
 * RTC连麦互动直播系统预研与设计，RTC-demo(webrtc)实现第一人。
 
 
-其他：
+## 其他
 
 * 作为技术和项目负责人：（主导设计后端，前端，console控制台；并上线商用）
   * 设计并开发微商城公众号，微商城小程序；
   * 设计并开发一物一码商品跟踪溯源系统；
+
+
+## 主要技术栈
+
+* 后端研发
+  * nginx/openresty
+  * C/C++
+  * nodejs
+  * js-sdk
+  * RTM/RTC
 
 
 ## 联系
