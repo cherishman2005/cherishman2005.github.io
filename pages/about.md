@@ -27,6 +27,9 @@ permalink: /about/
 
 * RTC连麦互动直播系统预研与设计，RTC-demo(webrtc)实现第一人。
 
+## 现就职**公司
+
+* 主要负责RTM/RTC接入侧后端研发，js-sdk开发等；
 
 ## 其他
 
