@@ -99,3 +99,11 @@ RFC2616规范中定义了range协议： 一次请求只下载完整文件的某�
 
    —— 可以观察nginx  worker进程PID是否在不断变化。如果不断变化，说明程序里面有bug。
 
+## 注意写权限
+
+拷贝时权限有变化。如： cp njs_shared_dict.db  share_dict.db
+```
+-rwxrwxrwx 1 zhangbiwu zhangbiwu   26 Nov  2 09:48 njs_shared_dict.db
+-rwxrwxr-x 1 zhangbiwu zhangbiwu   26 Nov  2 09:48 share_dict.db
+```
+注意写权限的变化
