@@ -67,6 +67,29 @@ leave离开
 刷新token与login登录类似，也要做串行化mutex加锁处理。
 
 
+## API调用示例
+
+API调用时最好采用规范化写法：
+
+```
+this.hummer.logout().then(res => {
+    // todo
+
+}).catch(e => {
+    // todo
+});
+```
+
+或者 
+```
+try {
+    const res = await this.hummer.logout();
+    // todo
+} catch (e) {
+    // todo
+}
+```
+
 ## 小结
 
 *  同一实例的 login/logout join/leave sdk成做好串行化操作。
