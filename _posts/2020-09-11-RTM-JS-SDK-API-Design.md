@@ -69,26 +69,10 @@ leave离开
 
 ## API调用示例
 
-API调用时最好采用规范化写法：
-
-```
-this.hummer.logout().then(res => {
-    // todo
-
-}).catch(e => {
-    // todo
-});
 ```
 
-或者 
 ```
-try {
-    const res = await this.hummer.logout();
-    // todo
-} catch (e) {
-    // todo
-}
-```
+
 
 ## 小结
 
