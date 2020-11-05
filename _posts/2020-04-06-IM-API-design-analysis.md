@@ -22,6 +22,7 @@ keywords: IM, RTM
     - [声网RTM API](#声网rtm-api)
     - [环信IM API](#环信im-api)
 - [FAQ](#faq)
+    - [命名对应关系](#命名对应关系)
     - [文件存储功能](#文件存储功能)
 - [参考链接](#参考链接)
 
@@ -37,81 +38,91 @@ keywords: IM, RTM
 | 声网RTM         | 从即时信令RTM发展起来，已加入上传图片功能（没有会话管理功能）；API接口也非常规范，值的借鉴 |
 | 环信IM         | 功能较全。API接口异步返回还是采用传统的回调函数；|
 
-
 ## 腾讯 IM API
 
 
 ### 登录相关
 
-API	描述
-* login	登录。
-* logout	登出。
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| login     | 登录。                      |
+| logout	| 登录。                      |
 
 ### 消息
 
-API	描述
-* createTextMessage	创建文本消息。
-* createImageMessage	创建图片消息。
-* createAudioMessage	创建音频消息。
-* createVideoMessage	创建视频消息。
-* createCustomMessage	创建自定义消息。
-* createFaceMessage	创建表情消息。
-* createFileMessage	创建文件消息。
-* sendMessage	发送消息。
-* revokeMessage	撤回消息。
-* resendMessage	重发消息。
-* getMessageList	获取消息列表。
-* setMessageRead	设置消息已读。
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| createTextMessage     | 创建文本消息。                      |
+| createImageMessage	| 创建图片消息。                      |
+| createAudioMessage	| 创建音频消息。                      |
+| createVideoMessage	| 创建视频消息。                      |
+| createCustomMessage	| 创建自定义消息。                    |
+| createFaceMessage	    | 创建表情消息。                      |
+| createFileMessage	    | 创建文件消息。                      |
+| sendMessage	        | 发送消息。                          |
+| revokeMessage	        | 撤回消息。                          |
+| resendMessage	        | 重发消息。                          |
+| getMessageList	    | 获取消息列表。                      |
+| setMessageRead	    | 设置消息已读。                      |
+
 
 ### 会话
 
-API	描述
-* getConversationList	获取会话列表。
-* getConversationProfile	获取会话资料。
-* deleteConversation	删除会话。
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| getConversationList       | 获取会话列表。                      |
+| getConversationProfile    | 获取会话资料。                      |
+| deleteConversation        | 删除会话。                          |
 
 ### 资料
 
-API	描述
-* getMyProfile	获取个人资料。
-* getUserProfile	获取其他用户资料。
-* updateMyProfile	更新个人资料。
-* getBlacklist	获取我的黑名单列表。
-* addToBlacklist	添加用户到黑名单列表。
-* removeFromBlacklist	将用户从黑名单中移除。
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| getMyProfile          | 获取个人资料。                             |
+| getUserProfile        | 获取其他用户资料。                          |
+| updateMyProfile       | 更新个人资料。                              |
+| getBlacklist          | 获取我的黑名单列表。                         |
+| addToBlacklist        | 添加用户到黑名单列表。                       |
+| removeFromBlacklist   | 将用户从黑名单中移除。                       |
 
 ### 群组
 
-API	描述
-* getGroupList	获取群组列表。
-* getGroupProfile	获取群详细资料。
-* createGroup	创建群组。
-* dismissGroup	解散群组。
-* updateGroupProfile	修改群组资料。
-* joinGroup	申请加群。
-* quitGroup	退出群组。
-* searchGroupByID	搜索群组。
-* changeGroupOwner	转让群组。
-* handleGroupApplication	处理申请加群。
-* setMessageRemindType	设置群消息提示类型。
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| getGroupList           | 获取群组列表。                             |
+| getGroupProfile        | 获取群详细资料。                          |
+| createGroup            | 创建群组。                          |
+| dismissGroup           | 解散群组。                          |
+| updateGroupProfile     | 修改群组资料。                          |
+| joinGroup              | 申请加群。                          |
+| quitGroup              | 退出群组。                          |
+| searchGroupByID        | 搜索群组。                          |
+| changeGroupOwner       | 转让群组。                          |
+| handleGroupApplication | 处理申请加群。                       |
+| setMessageRemindType   | 设置群消息提示类型。                  |
 
 ### 群成员
-API	描述
-* getGroupMemberList	获取群成员列表。
-* getGroupMemberProfile	获取群成员资料。
-* addGroupMember	添加群成员。
-* deleteGroupMember	删除群成员。
-* setGroupMemberMuteTime	设置群成员的禁言时间。
-* setGroupMemberRole	修改群成员角色。
-* setGroupMemberNameCard	设置群成员名片。
-* setGroupMemberCustomField	设置群成员自定义字段。
+
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| getGroupMemberList        | 获取群成员列表。                       |
+| getGroupMemberProfile     | 获取群成员资料。                       |
+| addGroupMember            | 添加群成员。                           |
+| deleteGroupMember         | 删除群成员。                           |
+| setGroupMemberMuteTime    | 设置群成员的禁言时间。                  |
+| setGroupMemberRole        | 修改群成员角色。                       |
+| setGroupMemberNameCard    | 设置群成员名片。                       |
+| setGroupMemberCustomField | 设置群成员自定义字段。                  |
 
 ### 其他
-API	描述
-* on	监听事件。
-* off	取消监听事件。
-* registerPlugin	注册插件。
-* setLogLevel	设置日志级别。
+
+| API                      | 描述                                  |
+|:--------------------------|:--------------------------------------|
+| on                        | 监听事件。                             |
+| off                       | 取消监听事件。                         |
+| registerPlugin            | 注册插件。                             |
+| setLogLevel               | 设置日志级别。                         |
+
 
 ## 声网RTM API
 
@@ -129,6 +140,10 @@ API	描述
 与腾讯IM类似，返回还是采用传统的回调函数。
 
 # FAQ
+
+## 命名对应关系
+
+* 腾讯API命名“资料”（Profile） 对应声网API命名 “属性”（Attribute）。
 
 ## 文件存储功能
 
