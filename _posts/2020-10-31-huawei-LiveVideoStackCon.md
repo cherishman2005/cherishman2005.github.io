@@ -1,0 +1,35 @@
+---
+layout: post
+title: 视频传输面临的挑战和解决之道
+categories: RTC
+description: 视频传输面临的挑战和解决之道
+keywords: RTC, RTM, CDN
+# topmost: true
+---
+
+# 视频传输面临的挑战和解决之道
+
+![视频发展3个特点](/images/posts/rtc/huawei-LiveVideoStackCon/huawei-LiveVideoStackCon1.png)
+
+![IPTV小结](/images/posts/rtc//huawei-LiveVideoStackCon/huawei-LiveVideoStackCon2.png)
+
+![OTT小结](/images/posts/rtc//huawei-LiveVideoStackCon/huawei-LiveVideoStackCon3.png)
+
+![RTC小结](/images/posts/rtc//huawei-LiveVideoStackCon/huawei-LiveVideoStackCon4.png)
+
+![IPTV/OTT/RTC对比](/images/posts/rtc//huawei-LiveVideoStackCon/huawei-LiveVideoStackCon5.png)
+
+【注】华为 在LiveVideoStackCon音视频技术大会 分享《视频传输面临的挑战和解决之道》。
+
+# 小结
+
+* 对IPTV，OTT，RTC概念总结的比较清晰。
+
+* 总结的这些技术，在直播公司已经非常成熟。
+  * RTC的这些技术都是webrtc的，需要新增自己的探索和思考，优化实践。
+
+* 分享提到的主张已经是中大型直播公司的标配。
+
+# 参考链接
+
+- [https://blog.csdn.net/vn9PLgZvnPs1522s82g/article/details/109476387](https://blog.csdn.net/vn9PLgZvnPs1522s82g/article/details/109476387)
