@@ -9,7 +9,7 @@ keywords: nodejs
 
 # MVC框架
 
-![MVC框架](/images/posts/nginx/ModelViewControllerDiagram.png)
+![MVC框架](/images/posts/nginx/model-view-controller.png)
 
 MVC 分别指的是：
 
