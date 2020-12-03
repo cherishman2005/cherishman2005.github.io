@@ -66,12 +66,15 @@ leave离开
 
 刷新token与login登录类似，也要做串行化mutex加锁处理。
 
+### pullMsg
 
-## API调用示例
+pullMsg拉取消息
 
-```
+![pullMsg](/images/posts/rtc/pullMsg.png)
 
-```
+pullMsg rpc是一个异步过程(init, pending, finish 3个阶段)：
+
+* 在pullMsg执行pending期间，不应该被中断：不允许触发pullMsg，也不处理push通知。
 
 
 ## 小结
