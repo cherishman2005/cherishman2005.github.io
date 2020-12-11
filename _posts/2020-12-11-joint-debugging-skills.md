@@ -1,9 +1,9 @@
 ---
 layout: post
 title: rpc联调技巧
-categories: rpc
+categories: RPC
 description: rpc联调技巧
-keywords: rpc
+keywords: RPC
 # topmost: true
 ---
 
