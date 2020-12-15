@@ -20,6 +20,7 @@ keywords: IM, RTM
         - [群成员](#群成员)
         - [其他](#其他)
     - [声网RTM API](#声网rtm-api)
+        - [登录状态管理](#登录状态管理)
     - [环信IM API](#环信im-api)
 - [FAQ](#faq)
     - [命名对应关系](#命名对应关系)
@@ -133,6 +134,9 @@ keywords: IM, RTM
 | createMediaMessageByUploading         | 上传一个文件或图片到 Agora 服务器以获取 RtmFileMessage 实例或 RtmImageMessage 实例，可用于发送频道消息和点对点消息。|
 | createMessage         | 创建一个消息实例。对于文件消息和图片消息，如果对应的文件或图片已经上传且 media ID 仍然有效，你无需再次上传文件或图片，可以直接调用此方法获取消息实例用来发送点对点消息或频道消息。|
 | downloadMedia         | 通过 media ID 从 Agora 服务器下载文件或图片。|
+
+### 登录状态管理
+![connection-state-change](/images/posts/rtm/connection-state-change.png)
 
 
 ## 环信IM API

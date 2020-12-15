@@ -30,7 +30,7 @@ login登录
 
 login是最重要的API。在底层链接未建立之前，需要做好缓存login请求；待建链后再发送。
 
-![login登录](/images/posts/rtc/login.png)
+![login登录](/images/posts/rtm/login.png)
 
 login rpc是一个异步过程(init, pending, finish 3个阶段)：
 
@@ -70,7 +70,7 @@ leave离开
 
 pullMsg拉取消息
 
-![pullMsg](/images/posts/rtc/pullMsg.png)
+![pullMsg](/images/posts/rtm/pullMsg.png)
 
 pullMsg rpc是一个异步过程(init, pending, finish 3个阶段)：
 
