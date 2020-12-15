@@ -25,6 +25,7 @@ keywords: IM, RTM
 - [FAQ](#faq)
     - [命名对应关系](#命名对应关系)
     - [文件存储功能](#文件存储功能)
+    - [off取消监听用法](#off取消监听用法)
 - [参考链接](#参考链接)
 
 <!-- /TOC -->
@@ -124,7 +125,6 @@ keywords: IM, RTM
 | registerPlugin            | 注册插件。                             |
 | setLogLevel               | 设置日志级别。                         |
 
-
 ## 声网RTM API
 
 上传或下载文件或图片
@@ -152,6 +152,24 @@ keywords: IM, RTM
 ## 文件存储功能
 
 * 腾讯QQ 会采用文件助手暂存7天。
+
+## off取消监听用法
+
+腾讯off用法：
+```
+off(eventName, handler, contextopt, onceopt)
+```
+取消监听事件。
+
+Example
+```
+let onMessageReceived = function(event) {
+  // 收到推送的单聊、群聊、群提示、群系统通知的新消息，可通过遍历 event.data 获取消息列表数据并渲染到页面
+  // event.name - TIM.EVENT.MESSAGE_RECEIVED
+  // event.data - 存储 Message 对象的数组 - [Message]
+};
+tim.off(TIM.EVENT.MESSAGE_RECEIVED, onMessageReceived);
+```
 
 # 参考链接
 
