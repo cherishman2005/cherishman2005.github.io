@@ -3,7 +3,7 @@ layout: post
 title: nodejs与go比较 
 categories: nodejs
 description: nodejs与go比较 
-keywords: nodejs
+keywords: nodejs, go
 # topmost: true
 ---
 
